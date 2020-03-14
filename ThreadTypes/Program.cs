@@ -7,6 +7,7 @@ namespace ThreadTypes
     {
         // C# program to illustrate the 
         // concept of foreground thread 
+        // Foreground thread -If the main thrad ends , then foreground thread continues.
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
