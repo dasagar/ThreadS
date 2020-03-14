@@ -16,6 +16,11 @@ namespace BackGroundThread
             backgroundThread.Name = "backgroundThread";
             backgroundThread.IsBackground = true;
             backgroundThread.Start();
+
+            for ( int i=0;i<100; i++)
+            {
+                Console.WriteLine("Hi From Main Method");
+            }
             //Console.ReadLine();
         }
 
